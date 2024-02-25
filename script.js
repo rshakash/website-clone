@@ -9,9 +9,9 @@ fetch('content.json')
             mainContent.innerHTML += `
                 <section>
                     <h2 class="heading">${section.heading}</h2>
-                    <p class="description">${section.description}</p>
-                    <p class="link"><a href="#" target="_blank">${section.linkText}</a></p>
                     <img src="${section.image}" alt="${section.altText}" class="section-image"/>
+                    <p class="description">${section.description}</p>
+                    <p class="link"><a href="#" target="_blank">${section.linkText} &emsp;<span class="arrow">&rarr;</span></a></p>
                 </section>
             `;
         });
