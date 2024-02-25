@@ -3,24 +3,28 @@
         "heading": "AI + RPA is what we do",
         "description": "Future-Proof your business. Drive efficiency, profitability and deliver on customer experience",
         "image": "./assets/robots.jpg",
+        "altText": "robots",
         "linkText": "AI + RPA Automation"
     },
     {
         "heading": "Make Bolder Choices",
         "description": "Digital focused strategies to realize market-changing ideas",
         "image": "./assets/team.png",
+        "altText": "team",
         "linkText": "Build Better Apps"
     },
     {
         "heading": "Innovate With Speed",
         "description": "Create higher quality software, deliver on customer expectations and business goals",
         "image": "./assets/workspace.jpg",
+        "altText": "workspace",
         "linkText": "DevOps"
     },
     {
         "heading": "Embrace Cloud",
         "description": "With Cloud-First accelerate innovation and optimize performance",
         "image": "./assets/phone.jpg",
+        "altText": "phone",
         "linkText": "Cloud Services"
     }
 ]
