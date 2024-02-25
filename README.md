@@ -8,9 +8,8 @@ A clone of the website: https://lets-collab-rust.vercel.app/
 2. Add remote repo to the local folder
 3. Downloaded images from the original website to the assets folder
 4. Add screenshots folder to track changes in appearance of website
-5. Create a .gitignore file to remove screenshots folder from being tracked
-6. Create a .json file to contain website data
-7. Add a html, css and js file
+5. Create a .json file to contain website data
+6. Add a html, css and js file
 
 ### Folder Structure
 ![folder structure](./screenshots/folderstruct.png)
