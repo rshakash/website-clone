@@ -16,3 +16,25 @@ fetch('content.json')
             `;
         });
     });
+
+// Toggle Dark Mode
+let darkMode = false;
+const buttonToToggle = document.querySelector('#toggleMode');
+const bodyElement = document.querySelector('body');
+buttonToToggle.addEventListener('click', () => {
+    bodyElement.classList.toggle('dark-mode');
+
+    //inverting the links text color only if the screen size is greater than 720px
+    if(window.innerWidth >= 720){
+        const links = document.querySelectorAll('.link a');
+        links.forEach(link => {
+            if(darkMode) {
+                link.style.color = 'black';
+            } else {
+                link.style.color = 'white';
+            }
+        });
+    }
+
+    darkMode = !darkMode;
+});
