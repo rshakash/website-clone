@@ -39,3 +39,10 @@ Note:- .gitignore file has been removed
 #### Mobile Screens
 ![Mobile Version Dark Mode](./screenshots/mobile-dark.png)
 ![Desktop Version Dark Mode](./screenshots/desktop-dark.png)
+
+## Day 3: Website Deployment
+This repository is currently deployed on Github Pages.<br>
+[Live Site URL](https://rshakash.github.io/website-clone/)
+
+### Screenshot of deployment
+![Deployment Screenshot](./screenshots/deployment.png)
