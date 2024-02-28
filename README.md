@@ -46,3 +46,8 @@ This repository is currently deployed on Github Pages.<br>
 
 ### Screenshot of deployment
 ![Deployment Screenshot](./screenshots/deployment.png)
+
+## Day 4: Animation
+
+- Add animation to sections when the site is loaded
+- Add animation to images when cursor comes over and leaves the element
