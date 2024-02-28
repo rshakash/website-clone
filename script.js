@@ -9,7 +9,7 @@ fetch('content.json')
             mainContent.innerHTML += `
                 <section>
                     <h2 class="heading">${section.heading}</h2>
-                    <img src="${section.image}" alt="${section.altText}" class="section-image"/>
+                    <img src="${section.image}" alt="${section.altText}" class="section-image" onmouseover="rotate(this)" onmouseout="rotateBack(this)"/>
                     <p class="description">${section.description}</p>
                     <p class="link"><a href="#" target="_blank">${section.linkText} &emsp;<span class="arrow">&rarr;</span></a></p>
                 </section>
@@ -38,3 +38,11 @@ buttonToToggle.addEventListener('click', () => {
 
     darkMode = !darkMode;
 });
+
+// Image Rotating Animation 
+const rotate = (e) => {
+    e.style.animation = 'rotate 1s linear forwards';
+}
+const rotateBack = (e) => {
+    e.style.animation = 'rotateAgain 1s linear forwards';
+}

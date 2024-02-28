@@ -121,3 +121,67 @@ footer {
     background-color: rgba(2, 1, 6, 0.87);
     color: white;
 }
+
+
+/* Animation */
+@keyframes appear {
+    0% {
+        opacity: 0;
+        position: relative;
+        top: 10vw;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}
+@keyframes appearAfter {
+    0% {
+        opacity: 0;
+    }  
+    33% {
+        opacity: 0;
+        position: relative;
+        top: 10vw;
+    }
+    100% {
+        opacity: 1;
+        position: relative;
+        top: 0;
+    }
+}
+
+main section:first-of-type {
+    animation: appear 1s linear;
+}
+main section:nth-of-type(2) {
+    animation: appearAfter 1.5s linear;
+}
+main section:nth-of-type(3) {
+    animation: appearAfter 2s linear;
+}
+main section:last-of-type {
+    animation: appearAfter 2.5s linear;
+}
+
+/* rotate the image element on hover */
+img {
+    transform-origin: 50% 50% 0%;
+}
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+@keyframes rotateAgain {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(-180deg);
+    }
+}
